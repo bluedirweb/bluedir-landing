@@ -668,6 +668,12 @@ a:focus {
 #clients .client-item-wrapper {
   text-align: center;
 }
+
+.client-images {
+  height: 50px;
+  width: 150px;
+}
+
 #contact {
   background: #ecf0f1;
 }
