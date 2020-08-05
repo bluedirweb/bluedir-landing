@@ -1,414 +1,79 @@
 <!doctype html>
 <html lang="en">
 
-  <head>  	
-  	<meta charset="utf-8">
-    <meta name="description" content="Startup de desarrollo de aplicaciones de escritorio como asi también paginas web y móviles a medidas para satisfacer las necesidades del cliente.">
-    <meta name="keywords" content="Software,A medida, Cordoba, Paginas Web , ERP, CRM, Desarrollo,Angular, CSS ,Python, Develop, Sistemas, Recursos Humanos">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="BlueDir">
-		<title>Bluedir | Desarrollo de Software </title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Startup de desarrollo de aplicaciones de escritorio como asi también paginas web y móviles a medidas para satisfacer las necesidades del cliente.">
+  <meta name="keywords"
+    content="Software,A medida, Cordoba, Paginas Web , ERP, CRM, Desarrollo,Angular, CSS ,Python, Develop, Sistemas, Recursos Humanos">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="author" content="BlueDir">
+  <title>Bluedir | Desarrollo de Software </title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="screen">
-    <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
-    <link href="css/material.min.css" rel="stylesheet">
-    <link href="css/ripples.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-  </head>
-  <style>
-    img.grayscale{
-      filter: grayscale(100%);
-    }
-    img.grayscale:hover {
-      filter: none;
-    }
-  </style>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f647f14997.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
+<body>
 
-    <div class="navbar navbar-invers menu-wrap" style="background-color:#2196f3">
-      <div class="navbar-header">
-        <img src="img/logosimple.png" alt="BlueDir" id="close-button" style="height:55px"></a>
-      </div>
-        <ul class="nav navbar-nav main-navigation">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#why">Why</a></li>
-          <li><a href="#clients">Clients</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header class="fixed-top page-header">
+    <div class="container-fluid container-fluid-max">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#home"><img alt="BlueDir" src="./images/bluedir.png" height="30" width="70"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#why">Home</a>
+            </li>
+            <!-- more list items here -->
+          </ul>
+        </div>
+      </nav>
     </div>
-  	
-  	<div class="content-wrap" id="content-wrap">
-     <!-- Home-->
-     <header class="hero-area" id="home">
-      <div class="container">
-          <div class="col-md-12">
-
-            <div class="navbar navbar-inverse sticky-navigation navbar-fixed-top blue" role="navigation" data-spy="affix" data-offset-top="200">
-              <div class="container">
-                <div class="navbar-header">
-                  <a class="logo-left " href="index.html"><img alt="BlueDir Web" src="img/logosimple.png" style="height:55px"></a>
-                </div>
-                <div class="navbar-right">
-                  <button class="menu-icon"  id="open-button">
-                    <i class="mdi-navigation-menu" style="padding-top:2px"></i>
-                  </button>             
-                </div>
-              </div>
-            </div>
-        </div>        
-        <div class="contents text-right">
-          <h1 class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">Let us know the problem.</h1>
-          <p class="wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">We are the solution.</p>
-        </div>   
-    </header>
-
-    <!-- Features Seccion-->
-    <section id="features" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h1 class="section-title wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="100ms">What we offer...</h1>
-          <h2 class="section-subtitle wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="400ms">Our engages in software.</h2>
-        </div>
+  </header>
+  <main>
+    <!--HOME SECCION-->
+    <section id="home" class="d-flex align-items-center position-relative vh-100 cover home"
+      style="background-image:url(./images/background.gif);">
+      <div class="container-fluid container-fluid-max">
         <div class="row">
-
-          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-action-extension"></i>
-              </div>
-              <div class="features-text">
-                <h4>Custom software development</h4>
-                <p>
-                  We can build a solution togheter. Your own features can be proposed during the cycle and make a better solution.
-                </p>
-              </div>
-             </div>
-          </div>
-
-
-          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-action-done-all"></i>
-              </div>
-              <div class="features-text">
-                <h4>Trending design</h4>
-                <p>
-                  With newest technologies, you can get stylish and functional software. This can be a good way to improve your marketing.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-action-lock"></i>
-              </div>
-              <div class="features-text">
-                <h4>Safe data</h4>
-                <p>
-                  Your data will be always safe. Nobody will get your information in a bad way and try to hack you.
-                </p>
-              </div>
-            </div>
-          </div>            
-
-
-          <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-hardware-phonelink"></i>
-              </div>
-              <div class="features-text">
-                <h4>Fully Responsive Layout</h4>
-                <p>
-                  Our pages can be used in every hardware. Mobile platform is always an important way to use the product.
-                </p>
-              </div>
-            </div>
-          </div>   
-      
-      <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-action-backup"></i>
-              </div>
-              <div class="features-text">
-                <h4>Local or Remote server configuration</h4>
-                <p>
-                  We can deploy our product in your physical or remote server with all needed soft for management.
-                </p>
-              </div>
-            </div>
-          </div>   
-        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <div class="features">
-              <div class="icon">
-                <i class="mdi-action-settings"></i>
-              </div>
-              <div class="features-text">
-                <h4>Support</h4>
-                <p>
-                  We can bring support with quickly answer for any inconvenient on software .
-                </p>
-              </div>
-            </div>
-          </div>   
-
-          </div>
-      </div>
-      
-    </section>
-
-    <!-- Why Seccion -->
-    <section id="why" class="section">
-      <div class="container">
-        
-        <div class="row">     
-          <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="pull-left content">
-              <h2>Why <img src="img/logosimple.png" alt="BlueDir Web" style="height:65px; width:155px">?</h2>
-              <p>
-                Here you have the reasons why you could choose us.<br>
-              </p>
-              <ul class="list-item">
-                <li><i class="mdi-action-done"></i>Responsability.</li>
-                <li><i class="mdi-action-done"></i>Well prepared developers.</li>
-                <li><i class="mdi-action-done"></i>Quickly response.</li>
-                <li><i class="mdi-action-done"></i>Cute and functional results.</li>
-                <li><i class="mdi-action-done"></i>Software not overvalued.</li>
-              </ul>
-              <a href="#contact" class="btn btn-lg btn-primary">Contact us!</a>
-            </div>
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <h1 class="title-home ml-5">Desarrollos inovadores para tu empresa</h1>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Client Seccion-->
-    <section id="clients" class="section">
-      <div class="container">
-
-        <div class="section-header text-center">
-          <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Our Clients</h1>
-          <h2 class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">Some of our jobs</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-item-wrapper">
-              <a href="http://www.oksocios.com"><img class="grayscale" src="img/clients/oksocios.png" alt=""></a>
-            </div>
+    <!-- Featured Destinations Section -->
+    <section id="process" class="process">
+      <div class="container-fluid container-fluid-max">
+        <div class="row text-center py-5">
+          <div class="col-12 pb-4">
+            <h2 class="text-red">Desarrollo Avanzado para tu negocio</h2>
           </div>
-          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-item-wrapper">
-              <a href="http://tiendabless.com.ar"><img class="grayscale" src="img/clients/bless.png" alt=""></a>
-            </div>
+          <div class="col-12 col-sm-6 col-lg-6">
+            <i class="fab fa-html5"></i>
           </div>
-          <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="client-item-wrapper">
-              <a href="#"><img class="grayscale" style="margin-top: -30px;max-height: 100px;" src="img/clients/loginhet.png" alt=""></a>
-            </div>
-          </div>
-
-<!--
-          <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="client-item-wrapper">
-              <img src="img/clients/img2.png" alt="">
-            </div>
-          </div>
---> 
-       </div>
-      </div>
-    </section>
-
-    <!-- Technology Seccion-->
-    <section id="testimonial" class="section">
-      <div class="container">
-        <div class="section-header text-center wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-          <h1 class="section-title">Some frameworks we usually work in...</h1>
-          <img src="img/techs.png" alt="Work In Technology">
         </div>
       </div>
     </section>
-
-    <!-- Team Seccion -->
-    <section id="team" class="section">
-      <div class="container">
-      
-        
-        <div class="section-header text-center">
-          <h1 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Meet our team</h1>
-        </div>
-        <div class="row">
-                <div class="col-md-1 col-sm-1 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-        </div>
-          <div class="col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="team-member text-center">
-                <div class="team-img">
-                  <img class="grayscale" src="img/silva.jpg" alt="Matias Silva">
-                  <div class="overlay">
-                    <div class="team-details text-center">
-                      <p>
-                        <b>Matias Silva</b>
-                      </p>
-                      <p>
-                        Developer.
-                      </p>
-                      <br>
-                      <div class="socials mt-20">
-                        <a href="https://ar.linkedin.com/in/matias-silva-0471b858"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:matisilva18@hotmail.com"><i class="fa fa-envelope"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          
-          <div class="col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="team-member text-center">
-                <div class="team-img">
-                  <img class="grayscale" src="img/rouaux.jpg" alt="Matias Rouaux">
-                  <div class="overlay">
-                    <div class="team-details text-center">
-                      <p>
-                        <b>Matias Rouaux</b>
-                      </p>
-                      <p>
-                        Developer.
-                      </p>
-                      <br>
-                      <div class="socials mt-20">
-                        <a href="https://ar.linkedin.com/in/matias-rouaux-826067b6"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:maatt.nqn@hotmail.com"><i class="fa fa-envelope"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-          
-          <div class="col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="team-member text-center">
-                <div class="team-img">
-                  <img class="grayscale"  src="img/fernando-biagetti.png" alt="Fernando Biagetti">
-                  <div class="overlay">
-                    <div class="team-details text-center">
-                      <p>
-                        <b>Fernando Biagetti</b>
-                      </p>
-                      <p>
-                        Developer.
-                      </p>
-                      <br>
-                      <div class="socials mt-20">
-                        <a href="https://ar.linkedin.com/in/fernando-biagetti-b2052686"><i class="fa fa-linkedin"></i></a>
-                        <a href="mailto:biagettifernando@gmail.com"><i class="fa fa-envelope"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>    
-      </div>
-    </section>
-
-    <!-- Contact Seccion-->
-    <section id="contact">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2 class="section-title">That's Where We Are</h2>
-            <div class="row">
-              <div class="col-md-3 col-sm-3">
-                <div class="info">
-                  <div class="icon">
-                    <i class="mdi-maps-map"></i>
-                  </div>
-                  <h4>Location</h4>
-                  <p>Córdoba, Argentina</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                <div class="info">
-                  <div class="icon">
-                    <i class="mdi-content-mail"></i>
-                  </div>
-                  <h4>Email</h4>
-                  <a href="mailto:bluedirweb@gmail.com">bluedirweb@gmail.com</a>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                <div class="info">
-                  <div class="icon">
-                    <i class="mdi-action-settings-phone"></i>
-                  </div>
-                  <h4>Phone Number</h4>
-                  <p>(0299) 155825160</p>
-                </div>
-              </div>
-              <div class="col-md-3 col-sm-3">
-                <div class="info">
-                  <div class="icon">
-                    <i class="mdi-action-thumb-up"></i>
-                  </div>
-                  <h4>Social Media</h4>
-                  <p><a href="https://www.facebook.com/BlueDir">Facebook</a></p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </section>    
-
-    <!-- Map -->
-    <div class="map-area">      
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.761462379557!2d-64.19328598508062!3d-31.42069758140273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a286e825bffd%3A0x52ecb59c8152fb0b!2sMontevideo+345%2C+X5000AXA+C%C3%B3rdoba%2C+Argentina!5e0!3m2!1ses!2sbd!4v1481170083478" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-       </div>
-    </div>
-
-    <!-- Footer -->
-    <section id="copyright">
-      <div class="container">
-          <div class="col-md-12">
-            <p class="copyright-text">
-             © Bluedir group all rights reserved
-            </p>
-        </div>
-      </div>
-    </section>
-    </div>
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/ripples.min.js"></script>
-    <script src="js/material.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/jquery.mmenu.min.all.js"></script> 
-    <script src="js/count-to.js"></script>   
-    <script src="js/jquery.inview.min.js"></script>     
-    <script src="js/classie.js"></script>
-    <script src="js/jquery.nav.js"></script>      
-    <script src="js/smooth-on-scroll.js"></script>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Popular Destinations Section -->
+    <section>...</section>
+    <!-- Request a Quote Section -->
+    <section>...</section>
+  </main>
+  <footer>...</footer>
 
 
-    <script>
-        $(document).ready(function() {
-            // This command is used to initialize some elements and make them work properly
-            $.material.init();
-        });
-    </script>
+</body>
 
-  </body>
+
 
 </html>
+
+<script src="index.js" />
