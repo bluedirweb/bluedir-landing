@@ -1064,3 +1064,8 @@ a:focus {
   background-color: #355c7d;
 }
 
+.client {
+	max-width: 200px!important;
+	max-height: 80px !important;
+	padding:5px  10px;
+}
